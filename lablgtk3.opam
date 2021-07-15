@@ -25,3 +25,6 @@ depends: [
 build: [
   [ "dune" "build" "-p" name "-j" jobs ]
 ]
+pin-depends: [
+  [ "dune.dev" "git+https://github.com/nojb/dune.git#cafcab6bec65f279f570e8a01f5f30425aedad40" ]
+]
